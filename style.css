@@ -1,0 +1,89 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    background-color: #221E2C;
+    font-family: 'Russo One', sans-serif;
+}
+
+.main-title
+{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+.main-gif
+{
+    text-align: center;
+    width: 90%;
+}
+
+.main-description
+{
+    text-align: center;
+    margin: 30px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #5c83c2 33%, #0D61BC 66%, #8AA9D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    line-height: 25px;
+}
+
+.button
+{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.button-prize
+{
+    margin: 0 auto;
+}
+
+.button-click
+{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: red;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+    -webkit-animation-name: flash;
+    animation-name: flash;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    }
+    @-webkit-keyframes flash {
+    0%, 50%, 100% {
+    opacity: 1;
+    }
+    
+    25%, 75% {
+    opacity: 0;
+    }
+    }
+    
+    @keyframes flash {
+    0%, 50%, 100% {
+    opacity: 1;
+    }
+    
+    25%, 75% {
+    opacity: 0;
+    }
+    }
+
+@media screen and (max-width: 480px)
+{
+    .main-description
+    {
+        font-size: 10px;
+    }
+}
